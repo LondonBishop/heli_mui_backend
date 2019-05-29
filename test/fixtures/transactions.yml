@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  transtype_desc: one
+  date: 2019-05-23 18:02:02
+  trans_dec: MyString
+  amount: 9.99
+  balance: 9.99
+
+two:
+  transtype_desc: two
+  date: 2019-05-23 18:02:02
+  trans_dec: MyString
+  amount: 9.99
+  balance: 9.99
