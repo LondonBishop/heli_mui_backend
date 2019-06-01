@@ -16,7 +16,7 @@ User.destroy_all()
 
 
 u1 = User.create(id:1, username: "Harry")
-u2 = User.create( id:2, usename: 'John')
+u2 = User.create( id:2, username: 'John')
 
 # byebug
 # //make look up Data
@@ -53,10 +53,10 @@ a10 = Accountline.create(entity_id: 3, transtype_id: 1, date: "12/04/2019",  tra
 
 # # cc
 e4 = Entity.create(user_id: 1, entitytype_id: et2.id, account_desc: "HSBC Credit Card", accountnumber: "492566113412", duedate: "11/06/2019", recurring: "Cycle") #4
-Accountline.create(entity_id: 4, transtype_id: 1, date: "20/04/2019",  trans_desc: "Apple Store", amount: -12.99, balance: 255.54 )
-a11 = Accountline.create(entity_id: 4, transtype_id: 1, date: "20/04/2019",  trans_desc: "TFL", amount: -8.00, balance: 242.55 )
-a12 = Accountline.create(entity_id: 4, transtype_id: 1, date: "19/04/2019",  trans_desc: "Easy Jet", amount: -234.55, balance: 234.55 )
-
+Accountline.create(entity_id: 4, transtype_id: 1, date: "20/04/2019",  trans_desc: "Apple Store", amount: -12.99, balance: 430.09 )
+a11 = Accountline.create(entity_id: 4, transtype_id: 1, date: "20/04/2019",  trans_desc: "TFL", amount: -8.00, balance: 417.10 )
+a12 = Accountline.create(entity_id: 4, transtype_id: 1, date: "19/04/2019",  trans_desc: "Easy Jet", amount: -174.55, balance: 409.01 )
+Accountline.create(entity_id: 4, transtype_id: 1, date: "18/04/2019",  trans_desc: "Zizi Pizza", amount: -37.25, balance: 234.55 )
 
 # # bills
 e5 = Entity.create(user_id: 1, entitytype_id: 3, account_desc: "Coffee Club", accountnumber: "34561298", duedate: "02/06/2019", recurring: "Weekly")
